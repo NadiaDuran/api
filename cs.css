@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    text-align: center;
+}
+ input{
+    padding: 10px;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+ }
+
+ input, button{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 auto; /* Esto centra horizontalmente */
+    display: block;
+ }
+
+ body {
+    background-image: url('rick.jpg'); /* Reemplaza 'ruta-de-la-imagen.jpg' con la ubicación de tu imagen */
+    background-size: cover; /* Ajustar la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    background-attachment: fixed; /* Fijar la imagen de fondo al desplazarse la página */
+}
